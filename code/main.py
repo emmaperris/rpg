@@ -7,6 +7,7 @@ class Game:
 
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH,HEIGHT))
+
         pygame.display.set_caption('The Forgotten Forest')
         self.clock = pygame.time.Clock()
 
